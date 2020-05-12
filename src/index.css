@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#quote-box {
+    border-radius: 5px;
+    padding: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#new-quote {
+    float: right;
+    border-radius: 2px;
+    border: 0px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: right;
+}
+
+.oliveBackground {
+    background-color: #3D9970;
+    color: white;
+}
+
+.oliveText {
+    background-color: white;
+    color: #3D9970;
+}
+
+.maroonBackground {
+    background-color: #85144b;
+    color: white;
+}
+
+.maroonText {
+    background-color: white;
+    color: #85144b;
+}
+
+.redBackground {
+    background-color: #FF851B;
+    color: white;
+}
+
+.redText {
+    background-color: white;
+    color: #FF851B;
+}
+
+.blueBackground {
+    background-color: #0074D9;
+    color: white;
+}
+
+.blueText {
+    background-color: white;
+    color: #0074D9;
+}
+
+.purpleBackground {
+    background-color: #B10DC9;
+    color: white;
+}
+
+.purpleText {
+    background-color: white;
+    color: #B10DC9;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
